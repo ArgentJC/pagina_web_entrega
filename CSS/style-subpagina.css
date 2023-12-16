@@ -1,0 +1,33 @@
+.navegador ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navegador li {
+    float: left;
+}
+  
+.navegador li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+  
+.navegador li a:hover:not(.active) {
+    background-color: mediumslateblue;
+}
+  
+.navegador .active {
+    background-color: #04AA6D;
+}
+header{
+    text-align: center;
+    border-bottom: 3px solid black;
+}
