@@ -1,0 +1,42 @@
+body{
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.parrafo{
+    text-align: left;
+    padding-right: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+  
+li a:hover:not(.active) {
+    background-color: mediumslateblue;
+}
+  
+.active {
+    background-color: #04AA6D;
+}
+*{
+    text-align: center;
+}
